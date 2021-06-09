@@ -1,0 +1,22 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.confirmDelete": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "javascriptreact"
+    },
+
+    // stylelint配置
+    "stylelint.enable": true,
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+
+    "[scss]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        },
+        "editor.foldingStrategy": "indentation"
+    }
+}
