@@ -10,7 +10,7 @@ module.exports = {
 
   extends: [
     'plugin:react/recommended', // Uses the recommended rules from @eslint-plugin-react
-
+    'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended', // Uses the recommended rules from the @typescript-eslint/eslint-plugin
 
     'prettier', // All configs have been merged into one! https://github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md#version-800-2021-02-21
